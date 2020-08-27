@@ -29,9 +29,9 @@
 			</form>
 			<ul>
 			 
-				<!--<li class="menu_item"><a href="loginpage.html">Login</a></li>-->
-				<li class="menu_item"><a href="#">About us</a></li>
-					<!--<li class="menu_item"><a href="BMI.html">BMI</a></li>-->
+				<li class="menu_item"><a href="loginpage.html">Login</a></li>
+				<li class="menu_item"><a href="index.html">About us</a></li>
+					<li class="menu_item"><a href="BMI.html">BMI</a></li>
 				<li class="menu_item"><a href="Diabetes1.html">Diabetes</a></li>
 				<li class="menu_item"><a href="Heart.html">Heart</a></li>
 				<li class="menu_item"><a href="Doctors.html">Doctors</a></li>				
@@ -82,9 +82,9 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
-													<!--<li><a href="loginpage.html">Login </a></li>-->
-													<li><a href="#">About Us</a></li>
-													<!--<li><a href="BMI.html">BMI</a></li>-->
+													<li><a href="loginpage.html">Login </a></li>
+													<li><a href="index.html">About Us</a></li>
+													<li><a href="BMI.html">BMI</a></li>
 													<li><a href="Diabetes.html">Diabetes</a></li>
 													<li><a href="Heart.html">Heart</a></li>
 													<li><a href="Doctors.html">Doctors</a></li>
@@ -117,19 +117,24 @@
 	</div>
 
 	<!-- Info Boxes -->
- <!--<center>
+ <center>
 	<div class="form-group">
 		<div class="rows">
 			<div class="col-md-4">
-			<div style="color:blue">
-<h2 overflow="scroll"> The user bmi value is: {{ Temp }} </h2>
-  </div>
+			<!--	<br/>
+		<input type="text" class="form-control" id="usr" placeholder="UserName">
+				<br/>
+		<input type="password" class="form-control" id="pwd" placeholder="Password">
+				<br/>
+				<div>
+		<button type="button" class="btn btn-info">Login</button>
+		<a href="Register.html"><button type="button" class="btn btn-info">Register</button></a>-->
 		
 				</div>
 			</div>
 		</div>
 	</div>
-</center>-->
+</center>
 
 	<!-- Services -->
  

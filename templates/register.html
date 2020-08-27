@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>About us</title>
+<title>Register</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Health medical template project">
@@ -28,12 +28,14 @@
 				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
 			</form>
 			<ul>
+			    <!-- <li class="menu_item"><a href="#">Home</a></li>
+			     <li class="menu_item"><a href="/">Register</a></li>-->
 			 
-				<!--<li class="menu_item"><a href="loginpage.html">Login</a></li>-->
-				<li class="menu_item"><a href="#">About us</a></li>
-					<!--<li class="menu_item"><a href="BMI.html">BMI</a></li>-->
+				<li class="menu_item"><a href="loginpage.html">Login</a></li>
+				<li class="menu_item"><a href="index.html">About us</a></li>
+					<!--<li class="menu_item"><a href="BMI.html">BMI</a></li>
 				<li class="menu_item"><a href="Diabetes1.html">Diabetes</a></li>
-				<li class="menu_item"><a href="Heart.html">Heart</a></li>
+				<li class="menu_item"><a href="Heart.html">Heart</a></li>-->
 				<li class="menu_item"><a href="Doctors.html">Doctors</a></li>				
 			</ul>
 		</div>
@@ -82,11 +84,13 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
-													<!--<li><a href="loginpage.html">Login </a></li>-->
-													<li><a href="#">About Us</a></li>
-													<!--<li><a href="BMI.html">BMI</a></li>-->
+												<!--<li><a href="#">Home </a></li>
+												<li><a href="register.html">Register</a></li>-->
+													<li><a href="loginpage.html">Login </a></li>
+													<li><a href="index.html">About Us</a></li>
+													<!--<li><a href="BMI.html">BMI</a></li>
 													<li><a href="Diabetes.html">Diabetes</a></li>
-													<li><a href="Heart.html">Heart</a></li>
+													<li><a href="Heart.html">Heart</a></li>-->
 													<li><a href="Doctors.html">Doctors</a></li>
 												</ul>
 											</nav>
@@ -117,19 +121,29 @@
 	</div>
 
 	<!-- Info Boxes -->
- <!--<center>
+ <center>
 	<div class="form-group">
 		<div class="rows">
 			<div class="col-md-4">
-			<div style="color:blue">
-<h2 overflow="scroll"> The user bmi value is: {{ Temp }} </h2>
-  </div>
-		
+			<br/>
+			<form class="form-container" method="POST" action='/registerpage'>
+			<input type="text" class="form-control"  placeholder="UserName" name="uname" required></br>
+		<input type="email" class="form-control"  placeholder="UserMailId" name="uemail" required>
+				<br/>
+		<input type="password" class="form-control" placeholder="Password" name="upassword" required>
+				<br/>
+				<input type="password" class="form-control" placeholder="ConfirmPassword" name="upassword1" required>
+				<br/>
+				
+				<div>
+		<input type="submit" value="Register" class="btn btn-success"></input>
+		</form>
 				</div>
 			</div>
 		</div>
 	</div>
-</center>-->
+</center>
+
 
 	<!-- Services -->
  

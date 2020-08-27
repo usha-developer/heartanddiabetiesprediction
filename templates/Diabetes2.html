@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>About us</title>
+<title>Diabetes</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Health medical template project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="static/styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="staic/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link href="static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="static/styles/main_styles.css">
@@ -28,13 +28,13 @@
 				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
 			</form>
 			<ul>
-			 
-				<!--<li class="menu_item"><a href="loginpage.html">Login</a></li>-->
-				<li class="menu_item"><a href="#">About us</a></li>
-					<!--<li class="menu_item"><a href="BMI.html">BMI</a></li>-->
-				<li class="menu_item"><a href="Diabetes1.html">Diabetes</a></li>
+			 <li class="menu_item"><a href="loginpage.html">Login</a></li>
+				<li class="menu_item"><a href="index.html">About us</a></li>
+					<li class="menu_item"><a href="BMI.html">BMI</a></li>
+				<li class="menu_item"><a href="contact.html">Diabetes</a></li>
 				<li class="menu_item"><a href="Heart.html">Heart</a></li>
-				<li class="menu_item"><a href="Doctors.html">Doctors</a></li>				
+				<li class="menu_item"><a href="Doctors.html">Doctors</a></li>			
+				
 			</ul>
 		</div>
 		<div class="menu_social">
@@ -82,9 +82,8 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
-													<!--<li><a href="loginpage.html">Login </a></li>-->
-													<li><a href="#">About Us</a></li>
-													<!--<li><a href="BMI.html">BMI</a></li>-->
+													<li><a href="index.html">About Us</a></li>											 
+													<li><a href="BMI.html">BMI</a></li>
 													<li><a href="Diabetes.html">Diabetes</a></li>
 													<li><a href="Heart.html">Heart</a></li>
 													<li><a href="Doctors.html">Doctors</a></li>
@@ -108,7 +107,7 @@
 						<div class="home_content">
 							<div class="home_title"> HEART DISEASE PREDICTION</div>
 							<div class="home_text">May God give you the strength and courage to continue your valiant fight until you are well again.</div>
-							<!--<div class="button home_button"><a href="#"><span></span><span></span></a></div>-->
+							<!--<div class="button home_button"><a href="index.html"><span> </span><span> </span></a></div>-->
 						</div>
 					</div>
 				</div>
@@ -117,33 +116,38 @@
 	</div>
 
 	<!-- Info Boxes -->
- <!--<center>
+ <center>
 	<div class="form-group">
 		<div class="rows">
 			<div class="col-md-4">
-			<div style="color:blue">
-<h2 overflow="scroll"> The user bmi value is: {{ Temp }} </h2>
-  </div>
-		
+				<br/>
+			<input type="text" id="1"   class="form-control" placeholder=" Glucose Level" required>
+				<br/>
+			<input type="text"  id="2" class="form-control"  placeholder="Blood Pressure" required>
+			<br/>
+			<input type="text"  id="3" class="form-control"  placeholder=" Skin Thickness" required>
+				<br/>
+			<input type="text"  id="4" class="form-control"  placeholder="Insulin Level" required>
+			<br/>
+			<input type="text"  id="5" class="form-control"  placeholder=" BMI" required>
+				<br/>
+			<input type="text"  id="6" class="form-control"  placeholder="Diabetes Dedigree Function" required>
+			<br/>
+			<input type="text" id="7" class="form-control"  placeholder=" Age" required>
+				<br/>			
+				<!--<button type="submit" class="btn btn-info">Result</button>-->
+				  <input type="submit" name="predict" value="Result" class="btn btn-info"> 
 				</div>
 			</div>
 		</div>
-	</div>
-</center>-->
-
-	<!-- Services -->
- 
-
-	
-	
-	 
-
+</center>
 	 
 	<!-- Footer -->
 
 	<footer class="footer">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="static/images/footer.jpg" data-speed="0.8"></div>
-		<div class="footer_content">
+		<div class="footer_content
+		
 			<div class="container">
 				<div class="row">
 
